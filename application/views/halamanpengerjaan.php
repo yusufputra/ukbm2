@@ -13,7 +13,7 @@
 
 </head>
 
-<body style="background-color:#97CADB;">
+<body style="background-color:#c3f0ca;">
 
 
 	<!-- Start Sidebar -->
@@ -40,8 +40,8 @@
 				Kamu belum bisa mengerjakan<br>UKBM <?php echo $this->input->get('kode_soal') ?>
 			</h1>
 			<p>Untuk dapat mengerjakan UKBM ini,<br>kamu harus menyelesaikan UKBM<br>sebelumnya</p>
-			<a href="<?php echo base_url('halamanpengerjaan?kode_soal='.$kodesoalsebelumnya)?>"><button type="button"
-					class="btn btn-info">Kerjakan UKBM sebelumnya</button></a>
+			<!-- <a href="<?php echo base_url('halamanpengerjaan?kode_soal='.$kodesoalsebelumnya)?>"><button type="button"
+					class="btn btn-info">Kerjakan UKBM sebelumnya</button></a> -->
 			<div class="sticky-bottom float-right"><img src="<?php echo base_url('assets/image/bg_notice.png'); ?>"
 					width="500" height="500" class="img-fluid"></div>
 
@@ -122,10 +122,10 @@
 			<h1>
 				Kamu telah menyelesaikan UKBM <?php echo $this->input->get('kode_soal') ?>
 			</h1>
-			<p>Kamu dapat mengerjakan soal UKBM selanjutnya,<br>kamu juga dapat melihat hasil jawaban kamu<br>untuk
+			<p>kamu juga dapat melihat hasil jawaban kamu<br>untuk
 				dipelajari kembali</p>
-			<a href="<?php echo base_url('halamanpengerjaan?kode_soal='.$kodesoalselanjutnya)?>"><button type="button"
-					class="btn btn-info">Kerjakan UKBM selanjutnya</button></a>
+			<!-- <a href="<?php echo base_url('halamanpengerjaan?kode_soal='.$kodesoalselanjutnya)?>"><button type="button"
+					class="btn btn-info">Kerjakan UKBM selanjutnya</button></a> -->
 			<a href="<?php echo base_url('hasilpengerjaan?kode_soal='.$this->input->get('kode_soal').'&nis='.$this->session->userdata('nis'))?>"><button type="button"
 					class="btn btn-dark">Lihat jawaban kamu</button></a>
 			<div class="sticky-bottom float-right"><img src="<?php echo base_url('assets/image/bg_finish.png'); ?>"

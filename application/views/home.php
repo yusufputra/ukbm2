@@ -11,7 +11,7 @@
 
 </head>
 
-<body style="background-color:#97CADB;">
+<body style="background-color:#c3f0ca;">
 
 
 	<!-- Start Sidebar -->
@@ -30,7 +30,7 @@
 				Selamat datang
 			</h1>
 			<p>Anda dapat melihat jawaban UKBM<br>Biologi yang telah dikerjakan para siswa</p>
-			<button type="button" class="btn btn-info">Lihat Pekerjaan Siswa</button>
+			<a href="<?php echo base_url('daftar_pengumpulan?kode_soal=1')?>"><button type="button" class="btn btn-info">Lihat Pekerjaan Siswa</button></a>
 
 			<div class="sticky-bottom float-right"><img src="<?php echo base_url('assets/image/bg_home.png'); ?>" width="500" height="500" class="img-fluid"></div>
 		</div>

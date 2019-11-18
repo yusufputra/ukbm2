@@ -13,7 +13,7 @@
 
 </head>
 
-<body style="background-color:#97CADB;">
+<body style="background-color:#c3f0ca;">
 
 
 	<!-- Start Sidebar -->

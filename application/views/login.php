@@ -9,7 +9,7 @@
 <body>
 
 	<div class="row no-gutters w-100 h-100 justify-content-center align-items-center">
-		<div class="col h-100" style="background-color:#97CADB">
+		<div class="col h-100" style="background-color:#c3f0ca">
 			<img class="mx-auto d-block img-fluid" src="<?php echo base_url('assets/image/home1.png'); ?>" style="min-width:200px;max-height: 350px;margin-top:20%">
 		</div>
 		<div class="col h-100 text-light" style="background-color:#018ABE">

@@ -11,7 +11,7 @@
 
 </head>
 
-<body style="background-color:#97CADB;">
+<body style="background-color:#c3f0ca;">
 
 
 	<!-- Start Sidebar -->
@@ -33,7 +33,7 @@
 			</h1>
 			<p>Kamu akan mengerjakan soal-soal <br>
 				UKBM Biologi, kerjakan sebaik mungkin ya</p>
-			<button type="button" class="btn btn-info">Mulai mengerjakan</button>
+			<a href="<?php echo base_url('halamanpengerjaan?kode_soal=1')?>"><button type="button" class="btn btn-info">Mulai mengerjakan</button></a>
 			<div id="example1"></div>
 
 		</div>
